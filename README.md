@@ -22,3 +22,10 @@ Stable release version is available through pip
 pip install sumo-rl
 ```
 
+
+### Run Qlearning
+with CLI example
+'''bash
+!python Qlearning.py --net "/content/sumo-rl/nets/2x2grid/2x2.net.xml" --route "/content/sumo-rl/nets/2x2grid/2x2.rou.xml" --output "./" --train_time 1000 --play_time 1000
+'''
+
